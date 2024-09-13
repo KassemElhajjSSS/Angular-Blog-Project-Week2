@@ -1,0 +1,19 @@
+<div class="post" >
+    <div class="post-header">
+      <h2 class="post-title">{{post.title}}</h2>
+      <span class="post-date">{{post.Date}}</span>
+    </div>
+    <p class="post-content">
+        {{post.text.substring(0,20) + '...'}}
+    </p>
+    <div class="post-actions">
+
+      <button  class="btn delete-btn" 
+        (click)="onDelete(post)" 
+        >Delete
+      </button>
+
+      <button [routerLink]="['/postDetails', post.id]" class="btn details-btn" >More Details</button>
+    </div>
+  </div>
+  

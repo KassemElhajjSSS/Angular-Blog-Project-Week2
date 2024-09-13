@@ -1,0 +1,16 @@
+<h1>PostList</h1>
+<app-add-post 
+    (onSubmitPost)="addPost($event)"
+></app-add-post>
+<div *ngIf="postsList; else errorTemplate">
+    <app-post
+        *ngFor="let post of postsList"
+        [@postAnim]
+        [post]="post"
+        (onDeletePost)="deletePost(post)"
+    ></app-post>
+</div>
+
+<ng-template #errorTemplate>
+    <p>Fetching...</p>
+</ng-template>

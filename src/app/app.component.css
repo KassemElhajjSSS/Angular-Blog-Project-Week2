@@ -1,0 +1,10 @@
+/* there are also global css configuration at styles.css */
+
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}

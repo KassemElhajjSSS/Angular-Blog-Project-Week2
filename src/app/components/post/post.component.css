@@ -1,0 +1,66 @@
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    text-align: left; /* Ensure all text is aligned to the left */
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top left */
+    margin-bottom: 10px;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+    text-align: left; /* Make sure the title starts from the left */
+  }
+  
+  .post-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .post-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: left; /* Ensure the text is left-aligned */
+  }
+  
+  .post-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .details-btn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  

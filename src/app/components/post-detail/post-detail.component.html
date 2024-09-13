@@ -1,0 +1,15 @@
+<div class="post-detail-container" *ngIf="post; else errorTemplate">
+    <div class="post-header">
+      <h2>{{ post.title }}</h2>
+      <span class="post-date">{{ post.Date | date: 'longDate' }}</span>
+    </div>
+    <div class="post-content">
+      <p>{{ post.text }}</p>
+    </div>
+    <button [routerLink]="['/']" class="btn details-btn">Return Home</button>
+  </div>
+  
+  <ng-template #errorTemplate>
+    <p>Fetching...</p>
+  </ng-template>
+  

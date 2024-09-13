@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "f4a8",
+      "title": "first post",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorem vitae animi nesciunt architecto officiis tempore quisquam error eum, officia similique enim omnis eaque fugit exercitationem laborum non. Saepe, molestiae.\n",
+      "Date": "2024-09-13T18:15:45.367Z"
+    },
+    {
+      "id": "5506",
+      "title": "second post",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorem vitae animi nesciunt architecto officiis tempore quisquam error eum, officia similique enim omnis eaque fugit exercitationem laborum non. Saepe, molestiae.\n",
+      "Date": "2024-09-13T18:15:50.621Z"
+    },
+    {
+      "id": "9557",
+      "title": "third post",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorem vitae animi nesciunt architecto officiis tempore quisquam error eum, officia similique enim omnis eaque fugit exercitationem laborum non. Saepe, molestiae.",
+      "Date": "2024-09-13T18:30:30.038Z"
+    }
+  ]
+}
